@@ -37,7 +37,6 @@ jobs:
         fetch-depth: 0
     - name: Execute Test
       run: |
-        pip install unittest
         cd source
         python -m unittest -v test_DB.py
         
