@@ -33,5 +33,5 @@ class DataBase:
             return True
         else:
             return self.VerificaUsuario(listaUsuarios[1:],usuario)
-    def SumaJason (a,b):
+    def SumaJason (self,a,b):
         return a+b
