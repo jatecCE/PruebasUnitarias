@@ -17,6 +17,6 @@ class TestDB(unittest.TestCase):
         self.assertEquals(db.IngresarUsuario(apellido="Letion", edad=28, nombre="Jason"),None)
     def test_PruebaSuma(self):
         db=DataBase("usuarios.txt")
-        self.assertEquals(db.SumaJason(4,5),9)
+        self.assertEquals(db.SumaJason(4,5),8)
 if __name__ == "__main__":
     unittest.main()
